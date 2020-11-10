@@ -1,2 +1,2 @@
 # Python-Project
-Python Web App
+Python Web Application using Flask & Jinja2.
