@@ -129,23 +129,6 @@ body {
 		left: 10%;
 		width: 600px;
 }
-/* Hobbies page lists*/
-.listleft {
-		position: fixed;
-		top: 45%;
-		left: 45%;
-		width: 600px;
-}
-.listright {
-		position: fixed;
-		top: 46%;
-		left: 75%;
-}
-.listmiddle {
-		position: fixed;
-		top: 46%;
-		left: 60%;
-}
 /* Links on portfolio page*/
 .externallinks {
 		position: fixed;
@@ -168,3 +151,10 @@ body {
 .main {
 		margin-top: 30px; 
 } 
+/*About Me Page text*/
+.abouttext{
+		position: fixed;
+		top: 35%;
+		left: 10%;
+		width: 600px;
+}
