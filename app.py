@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect
+from flask import Flask, render_template, request
 app = Flask(__name__)
 
 #Home
@@ -45,6 +45,10 @@ def portfolio():
 @app.route("/cv")
 def cv():
 	return render_template('cv.html', the_title="CV")
+#Contact
+@app.route("/contact")
+def contact():
+        return render_template('contact.html', the_title="Contact")
 		
 if __name__ == "__main__":
     app.run()
