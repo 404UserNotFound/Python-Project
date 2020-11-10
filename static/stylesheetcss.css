@@ -1,0 +1,169 @@
+ /* The navigation bar */
+.navbar {
+	  overflow: hidden;
+	  background-color: #F2B8C6;
+	  /*position: fixed; */
+	  top: 0; 
+	  /*left: 36%;*/
+	  width: 100%; 
+		}
+
+/* Links inside the navigation bar */
+.navbar a {
+	  float: center;
+	  display: block;
+	  color: white;
+	  text-align: center;
+	  padding: 15px;
+	  text-decoration: none;
+		}
+
+.tech_list
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F2B8C6;
+  position: fixed;
+  left: 36%;
+  top: 14%;
+}
+
+.tech_list li
+{
+	float: left;
+}
+
+.tech_list li a
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.tech_list a:hover {
+	background: #ddd;
+	color: #SW6283;
+}
+
+/* Mouse-over background*/
+.navbar a:hover {
+	  background: #ddd;
+	  color: #SW6283;
+		}
+/* Background fill*/
+body {
+	  background: url(gradient.jpg) no-repeat 50% 50% fixed; 
+	  background-size: cover;
+}
+/* Header on Homepage*/
+.header{
+		position: fixed;
+		left: 10%;
+		top: 25%;
+}
+/* Header on Portfolio page*/
+.headerportfolio{
+		position: fixed;
+		left: 45%;
+		top: 14%;
+}
+/* Header on Hobbies page*/
+.hobbyheader{
+		position: fixed;
+		left: 45%;
+		top: 10%;
+}
+/* Sidebar photo positioning*/
+.photog{
+		position: absolute;
+		top: 0;
+		left: 0%;
+		height: 100%
+}
+/* Hobby page photos 1 to 4*/
+.HOBBY1{
+		position: fixed;
+		top: 20%;
+		left: 45%;
+
+}
+.HOBBY2{
+		position: fixed;
+		top: 20%;
+		left: 75%;
+
+}
+.HOBBY3{
+		position: fixed;
+		top: 55%;
+		left: 45%;
+
+}
+.HOBBY4{
+		position: fixed;
+		top: 55%;
+		left: 75%;
+
+}
+/* Portfolio page images*/
+.PAINT1{
+		position: fixed;
+		top: 30%;
+		left: 45%;
+
+}
+.PAINT2{
+		position: fixed;
+		top: 30%;
+		left: 75%;
+
+}
+/* Homepage text positioning*/
+.bodytext {
+		position: fixed;
+		top: 30%;
+		left: 10%;
+		width: 600px;
+}
+/* Hobbies page lists*/
+.listleft {
+		position: fixed;
+		top: 45%;
+		left: 45%;
+		width: 600px;
+}
+.listright {
+		position: fixed;
+		top: 46%;
+		left: 75%;
+}
+.listmiddle {
+		position: fixed;
+		top: 46%;
+		left: 60%;
+}
+/* Links on portfolio page*/
+.externallinks {
+		position: fixed;
+		top: 23%;
+		left: 45%;
+}
+/* Links on portfolio page 2*/
+.externallinks2 {
+		position: fixed;
+		top: 23%;
+		left: 75%;
+}
+/* Email footer on page*/
+.emailfooter {
+		position: fixed;
+		top: 90%;
+		left: 45%;
+}
+.main {
+		margin-top: 30px; /* Margin on top*/
+} 
