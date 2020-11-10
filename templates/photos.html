@@ -1,15 +1,13 @@
 {% extends 'base.html' %}
 
 {% block body %}
-		<link rel="stylesheet" href="../static/stylesheetcss.css"/>
-		
 		<div class="navbar"> <!-- Navbar with hover element -->
 			<table border= "1" bordercolor="white"> 
 			<tbody>
 			 <th><a href="/home"><font face = "verdana" size = "3">Home</font></a></th>
 			 <th><a href="/aboutme"><font face = "verdana" size = "3">About Me</font></a></th>
-			 <th><a href="#"><font face = "verdana" size = "3">Computing Tech</font></a></th>
-			 <!--<th><a href="/photos"><font face = "verdana" size = "3">Photos<font></a></th> -->
+			 <th><a href="/comp_tech"><font face = "verdana" size = "3">Computing Tech</font></a></th>
+			 <!--<th><a href="#"><font face = "verdana" size = "3">Photos<font></a></th> -->
 			 <th><a href="/portfolio"><font face = "verdana" size = "3">Portfolio<font></a></th>
 			 <th><a href="/cv"><font face = "verdana" size = "3">CV<font></a></th>
 			 <th><a href="/contact"><font face = "verdana" size = "3">Contact<font></a></th>
@@ -17,24 +15,26 @@
 			 </table>
 		</div>
 
-	<!-- Menu-->
-		<ul class="tech_list">
-			<li>
-				<a href="/comp_tech/tech1">Tech 1</a>
-			</li>
-			<li>
-				<a href="/comp_tech/tech2">Tech 2</a>
-			</li>
-			<li>
-				<a href="/comp_tech/tech3">Tech 3</a>
-			</li>
-		</ul>
-		
-		<div class="header"> 
-			<h2 style="color:white; font-family:Verdana;">Some cool Artificial Intelligence stuff.</h2>
+		<div class="hobbyheader">  <!--  Header -->
+			<h2 style="color:white; font-family:Verdana;">Photography</h2>
 		</div>
-
-
+		
+		<div class="HOBBY1"> <!--  Pictures aligned with CSS as a small grid on the page -->
+			<img src="./static/hobby1.jpg" width="300px" height="220px">
+		</div>
+		
+		<div class="HOBBY2">
+			<img src="./static/hobby2.jpg" width="300px" height="220px">
+		</div>
+		
+		<div class="HOBBY3">
+			<img src="./static/hobby3.jpg" width="300px" height="220px">
+		</div>
+		
+		<div class="HOBBY4">
+			<img src="./static/hobby4.jpg" width="300px" height="220px">
+		</div>
+		
 			<div class="emailfooter"> <!-- Footer with email -->
 				<font color="white" size="1" align="center"> Email: c00242687@itcarlow.ie</font></font></pre></p>
 			</div>
