@@ -68,7 +68,7 @@ body {
 /* Header on Portfolio page*/
 .headerportfolio{
 		position: fixed;
-		left: 45%;
+		left: 10%;
 		top: 14%;
 }
 /* Header on Hobbies page*/
@@ -113,13 +113,13 @@ body {
 .PAINT1{
 		position: fixed;
 		top: 30%;
-		left: 45%;
+		left: 15%;
 
 }
 .PAINT2{
 		position: fixed;
 		top: 30%;
-		left: 75%;
+		left: 45%;
 
 }
 /* Homepage text positioning*/
@@ -150,13 +150,13 @@ body {
 .externallinks {
 		position: fixed;
 		top: 23%;
-		left: 45%;
+		left: 15%;
 }
 /* Links on portfolio page 2*/
 .externallinks2 {
 		position: fixed;
 		top: 23%;
-		left: 75%;
+		left: 45%;
 }
 /* Email footer on page*/
 .emailfooter {
