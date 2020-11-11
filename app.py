@@ -45,8 +45,9 @@ def portfolio():
 @app.route("/cv")
 def cv():
 	return render_template('cv.html', the_title="CV")
+
 #Contact
-@app.route("/contact")
+@app.route("/contact", methods=["GET", "POST"])
 def contact():
         return render_template('contact.html', the_title="Contact")
 		
