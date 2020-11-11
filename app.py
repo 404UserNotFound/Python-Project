@@ -53,10 +53,11 @@ def contact():
                 email = request.form["email"]
                 message = request.form["message"]
        
-                text = "email: " + email + ", message: " +message
+                text = "email: " + email + ", message: " + message
        
                 with open("comments.txt", "a+") as f:
-                        f.write(text + "\n")
+                        f.write(text + "\n \n" )
+                        
         return render_template('contact.html', the_title="Contact")
 
 if __name__ == "__main__":
