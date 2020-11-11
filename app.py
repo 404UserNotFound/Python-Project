@@ -50,6 +50,14 @@ def cv():
 @app.route("/contact", methods=["GET", "POST"])
 def contact():
         return render_template('contact.html', the_title="Contact")
-		
+        if request.method == "POST":
+                email = request.form["email"]
+                message = request.form["message"]
+       
+                text = "email: " + email + ", message: " +message
+       
+                with open("comments.txt", "a+") as f:
+                        f.write(text + "\n")
+            
 if __name__ == "__main__":
     app.run()
