@@ -1,2 +1,2 @@
 # Python-Project
-Python Web Application using Flask.
+Python Web Application assignment using Flask.
